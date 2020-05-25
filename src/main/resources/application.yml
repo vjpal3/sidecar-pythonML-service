@@ -1,0 +1,11 @@
+server:
+  port: 5678 
+
+spring:
+  application:
+    name: sidecar-python-service   
+
+sidecar:
+  port: 8090   
+  health-uri: http://localhost:8090/api/fraud-detection/health.json 
+  hostname: localhost
