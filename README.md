@@ -7,5 +7,5 @@
      ### Built with:
   - Java
   - Spring Boot
-  - Sidecar
+  - Netflix Sidecar
   - Maven
